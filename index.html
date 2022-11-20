@@ -79,7 +79,64 @@
                max-width: 380px;
                height: 267px;
             }
+
+            #card-compra span b {
+               font-size: 60px !important;
+               font-weight: 500;
+            }
          }
+
+         #barra-pesquisa {
+            width: 100%;
+            padding: 25px 40px;
+            border-radius: 10px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1020px;
+            margin: 20px auto;
+            
+         }
+
+         /*<div id="card-compra">
+               <span>R$<b id="preco">39,90</b></span>*/
+
+         #compra {
+            margin: 0 auto;
+            margin-top: 120px;
+         }
+
+         #card-compra {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+         }
+
+         #card-compra span {
+            font-size: 50px;
+         }
+
+         #card-compra span b {
+            font-size: 150px;
+            font-weight: 500;
+         }
+
+         #finalizar-com {
+            padding: 35px;
+         }
+
+         #finalizar-com button {
+            padding: 20px 80px;
+            background-color: #252525;
+            color: #fff;
+            font-size: 20px;
+         }
+         
+
       </style>
 
    </head>
@@ -180,6 +237,7 @@
             </div>
          </div>
       </div>
+
       <!-- end service -->
       <!-- gallery -->
       <div id="gallery"  class="gallery">
@@ -189,8 +247,36 @@
                   <div class="titlepage">
                      <h2>Facilidade de <span class="green"> Acesso</span></h2>
                      <p style="margin-bottom: 20px;">Ganhe um dia da sua semana</p>
+                     <div id="barra-pesquisa">
+                        Airbnb condomínio
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                     </div>
                      <iframe id="a-dashboard" title="JD - MVP StartupWeekend - Pesquisa" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiYmFjMDA4MjMtMjY1Ni00Y2MwLWEzM2EtYmEwMWM0MTQ1MzlmIiwidCI6ImQwOTEwZmZkLThhMzctNGJkYi1iYTY1LTdkMmQwZWI1N2RlOSIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
                   </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="compra" class="compra">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Assine <span class="green">Agora!</span></h2>
+                  </div>
+               </div>
+            </div>
+            <div id="card-compra">
+               <div>
+                  <h1>Garante seu acesso a nossa plataforma!</h1>
+                  <p>Oferecemos um suporte personalizado para nossos clientes!</p>
+               </div>
+               <div>
+                  <span>R$<b id="preco">39,90</b></span>
+               </div>
+               <div id="finalizar-com">
+                  <button id="fazer-compra">Garantir Acesso</button>
                </div>
             </div>
          </div>
