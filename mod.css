@@ -1,0 +1,19 @@
+.m-flex {
+    display: flex;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.ofertas .m-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ofertas .m-flex span {
+    font-size: 40px;
+}
